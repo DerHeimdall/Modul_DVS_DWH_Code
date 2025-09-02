@@ -83,6 +83,3 @@ JOIN db_staging.Tab_Staging_Kategorie k ON e.Kategorie_ID = k.Kategorie_ID
 JOIN db_staging.Tab_Staging_Wetter w ON v.Zeitstempel_15min = w.Zeitstempel_15min
 WHERE HOUR(w.Zeitstempel) BETWEEN 9 AND 18;
 
--- #########################################################
--- Fertig 🎉
--- #########################################################
